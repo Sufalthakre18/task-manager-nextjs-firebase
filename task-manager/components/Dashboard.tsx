@@ -68,6 +68,7 @@ export default function Dashboard() {
     const taskRef = doc(db, 'tasks', editingTask.id);
     await updateDoc(taskRef, data as DocumentData);
     setEditingTask(null);
+    setStatusFilter('all');
   };
 
   const handleDeleteTask = async (taskId: string) => {

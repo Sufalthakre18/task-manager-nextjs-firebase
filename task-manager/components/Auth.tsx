@@ -26,7 +26,12 @@ export default function AuthPage() {
       }
       router.push('/dashboard');
     } catch (err: any) {
-      setError(err.message || 'Authentication failed');
+      if(err.code==='auth/invalid-credential'){
+        setError('Invalid credentials provided.')
+      }else{
+        setError('Authentication failed');
+      }
+      
     } finally {
       setLoading(false);
     }
