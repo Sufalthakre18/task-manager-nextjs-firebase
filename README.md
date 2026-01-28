@@ -8,6 +8,8 @@ A full-stack task management application built with Next.js, TypeScript, Tailwin
 
 ## Code :- [github code](https://github.com/Sufalthakre18/task-manager-nextjs-firebase)
 
+## Demo Video :- [https://youtu.be/P9zgoTjBZjM?si=o4GLUK7y6E3-yAHG](https://youtu.be/P9zgoTjBZjM?si=o4GLUK7y6E3-yAHG)
+
 ## 🚀 Tech Stack
 
 - **Frontend Framework**: Next.js 14 (App Router)
